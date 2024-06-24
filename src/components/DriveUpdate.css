@@ -1,0 +1,68 @@
+/* DriveUpdate.css */
+
+.drive-update-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .drive-update-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .select-company {
+    margin-bottom: 20px;
+  }
+  
+  .select-company label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .select-company select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .update-status {
+    margin-bottom: 20px;
+  }
+  
+  .update-status label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .update-status input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .update-status button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
+  .update-status button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #333;
+  }
+  

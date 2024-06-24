@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import DriveStatus from './components/DriveStatus';
+import DriveUpdate from './components/DriveUpdate';
+import StudentProgress from './components/StudentProgress';
+import Shortlist from './components/Shortlist';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>TPO Drive Tracker</h1>
+      <DriveStatus />
+      <DriveUpdate />
+      <Shortlist />
+      <StudentProgress />
+      
     </div>
   );
 }

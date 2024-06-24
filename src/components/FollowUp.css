@@ -1,0 +1,74 @@
+/* FollowUp.css */
+
+.follow-up-container {
+    margin-top: 20px;
+  }
+  
+  .follow-up-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .follow-up-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .follow-up-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .follow-up-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .follow-up-item .company-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .follow-up-item .status {
+    font-style: italic;
+    color: #333;
+  }
+  
+  .follow-up-item .last-contacted {
+    color: #666;
+  }
+  
+  .follow-up-item .actions {
+    margin-top: 10px;
+  }
+  
+  .follow-up-item .actions button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9rem;
+  }
+  
+  .follow-up-item .actions button.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .follow-up-item .actions button.delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .follow-up-item .actions button.edit-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .follow-up-item .actions button.edit-btn:hover {
+    background-color: #0056b3;
+  }
+  

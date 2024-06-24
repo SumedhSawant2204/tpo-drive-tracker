@@ -1,0 +1,79 @@
+/* Shortlist.css */
+
+.shortlist-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shortlist-container h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .shortlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shortlist-table th,
+  .shortlist-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .shortlist-table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .shortlist-table td {
+    background-color: #f8f9fa;
+  }
+  
+  .action-btn {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .action-btn i {
+    margin-right: 5px;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .close-btn i {
+    margin-right: 5px;
+  }
+  
+  .close-btn:hover {
+    background-color: #c82333;
+  }
+  
